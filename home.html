@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>foster -my Webpage</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  <header>
+    <h1 style="font-family:Lato">CS400, Foster</h1>
+  </header>
+
+  <ul style="font-family:Lato">
+    <li>Joel Foster</li>
+    <li>Sophomore</li>
+    <li>Favorite sport: speed skating</li>
+    <li>Right now I want to eat Pistachio ice cream</li>
+  </ul>
+
+  <p style="font-family:Lato">Here is an image of the work of Daniel Arsham, who attempts
+    to add some futurism to the archaic greek and roman tradition of stone
+    sculpturing.</p>
+  <img src="images/arsham.jpg" alt="arsham sculpture" width="200" height="140" />
+  <p style="font-family:Lato">to see more of Daniel Arsham's work,
+    <a id="webpage" href="https://www.danielarsham.com/collection#directory">danielarsham.com</a>
+  </p>
+
+  <p style="font-family:Lato" id="approval" onclick="myFunction()">Do you like the artists sculpture? Click here then.</p>
+
+  <script>
+    function myFunction() {
+      document.getElementById("webpage").innerHTML = "Visit here of more of his work!";
+    }
+  </script>
+
+
+  <footer style="font-family:Lato">Created on 12/3/2018</footer>
+
+
+</body>
+
+</html>
