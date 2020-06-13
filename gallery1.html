@@ -4,28 +4,31 @@
 <head>
   <title>ASIAN 371 Digital Gallery</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="styling2.css">
+  <link rel="stylesheet" type="text/css" href="galleryStyle.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!--  <style>
-    .parallax {
-      /* The image used */
-      background-image:
-        url("images/DP318928.jpg"),
-        url("images/DP318937.jpg"),
-        url("images/DP318938.jpg"),
-        url("images/DP318939.jpg");
 
-      /* Set a specific height */
-      min-height: 20000px;
-
-      /* Create the parallax scrolling effect */
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+  <style>
+    .bgimg-1 {
+      background-image: url("images/DP318928.jpg");
+      min-height: 100%;
     }
-  </style>-->
+
+    .bgimg-2 {
+      background-image: url("images/DP318937");
+      min-height: 400px;
+    }
+
+    .bgimg-3 {
+      background-image: url("images/DP318938.jpg");
+      min-height: 400px;
+    }
+
+    .bgimg-4 {
+      background-image: url("images/DP318939.jpg");
+      min-height: 400px;
+    }
+  </style>
 </head>
 
 <body>
@@ -35,7 +38,11 @@
   </header>
   <p>Here is some content!!!!</p>
 
-  <div class="parallax"></div>
+  <div class="bgimg-1"></div>
+  <div class="bgimg-2"></div>
+  <div class="bgimg-3"></div>
+  <div class="bgimg-4"></div>
+
 
   <div style="height:1000px;background-color:red;font-size:36px">
     Scroll Up and Down this page to see the parallax scrolling effect.
