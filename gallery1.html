@@ -4,10 +4,21 @@
 <head>
   <title>ASIAN 371 Digital Gallery</title>
   <meta charset="utf-8">
-  <!--<link rel="stylesheet" type="text/css" href="styling.css">-->
+  <link rel="stylesheet" type="text/css" href="styling.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body {
+    .parallax {
+      /* The image used */
       background-image: url("images/DP318928.jpg");
+
+      /* Set a specific height */
+      min-height: 500px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   </style>
 </head>
@@ -17,6 +28,10 @@
     <h1 style="font-family:Lato">Gallery Space 1
     </h1>
   </header>
+
+  <div class="parallax"></div>
+
+  <p>Here is some content!!!!</p>
 </body>
 
 </html>
