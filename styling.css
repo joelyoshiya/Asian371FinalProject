@@ -10,6 +10,10 @@ ul {
   background-color: #f1f1f1;
 }
 
+li {
+  float: left;
+}
+
 li a {
   display: block;
   color: #000;
@@ -23,7 +27,12 @@ li a:hover {
   color: white;
 }
 
-.active {
-  background-color: #4CAF50;
+li a.active {
+  background-color: #d6badb;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
   color: white;
 }
