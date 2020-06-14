@@ -1,3 +1,10 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  background-image: url("images/Dwelling_in_the_Fuchun_Mountains_(first_half) (1).jpg");
+}
+
 iframe {
   border-width: 0px;
 }
