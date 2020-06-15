@@ -1,6 +1,6 @@
 body, html {
   height: 100%;
-  margin: 0;
+  margin-top: 25px;
   font: 400 15px/1.8 "Lato", sans-serif;
   background-image: url("images/Dwelling_in_the_Fuchun_Mountains_(first_half) (1).jpg");
   background-color: #a8a5a5;
@@ -16,6 +16,38 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+}
+
+.active {
+  background-color: #c2735d;
+}
+
+/*
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   width: 200px;
   background-color: #f1f1f1;
 }
@@ -27,11 +59,12 @@ li {
 li a {
   display: block;
   color: #000;
+  text-align: center;
   padding: 8px 16px;
   text-decoration: none;
 }
 
-/* Change the link color on hover */
+/* Change the link color on hover
 li a:hover {
   background-color: #555;
   color: white;
@@ -46,3 +79,4 @@ li a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
+*/
