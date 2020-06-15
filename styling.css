@@ -5,7 +5,7 @@ body, html {
   background-image: url("images/Dwelling_in_the_Fuchun_Mountains_(first_half) (1).jpg");
   background-color: #a8a5a5;
   background-size: cover;
-  opacity: 0.85;
+  background-blend-mode: soft-light;
 }
 
 iframe {
@@ -38,7 +38,7 @@ li a:hover {
 }
 
 li a.active {
-  background-color: #d6badb;
+  background-color: #c2735d;
   color: white;
 }
 
