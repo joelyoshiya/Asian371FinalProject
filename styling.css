@@ -11,6 +11,8 @@ body, html {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
+  width: 64%;
+  height: 36%;
   height: 0;
 }
 
