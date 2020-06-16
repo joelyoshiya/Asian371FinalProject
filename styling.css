@@ -1,6 +1,5 @@
 body, html {
   height: 100%;
-  margin-top: 0;
   font: 400 15px/1.8 "Lato-Bold.ttf", sans-serif;
   background-image: url("images/Dwelling_in_the_Fuchun_Mountains_(first_half) (1).jpg");
   background-color: #a8a5a5;
@@ -19,12 +18,27 @@ body, html {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*()
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 50%;
   height: 50%;
   background-color: transparent;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+*/
 header {
   font: 400 15px/1.8 "Lato-Bold.ttf", sans-serif;
   position: relative;
